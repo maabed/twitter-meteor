@@ -1,0 +1,16 @@
+<template name="appBody">
+  <div id="container">
+  </div>
+
+  <div>
+    <ul>
+      {{#each stdudents}}
+        <li>
+          Student name: <b style="color:green">{{name}}</b> 
+          | Age: <b style="color:green">{{age}} </b>
+          | Field: <b style="color:green">{{field}}</b>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</template>
